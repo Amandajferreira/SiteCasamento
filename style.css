@@ -1,0 +1,180 @@
+
+/* Estilização barra de navegação */
+  @import url('http://fonts.cdnfonts.com/css/scriptina');
+
+     
+.navbar-brand:hover{
+  color: rgba(240, 151, 197, 0.685) !important;
+
+}
+.nav-link, .dropdown-item{
+  color: rgb(255, 255, 255) !important;
+  padding: 8px;
+  border-radius: 3%;
+  margin-right: 30px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-shadow: 2px 2px 6px black;
+  background-image: linear-gradient(to top, rgba(83, 70, 70, 0), rgba(65, 41, 52, 0.801));
+  font-family: 'Scriptina - Alternates'; 
+  
+  
+}
+
+.fotoscasal{
+  
+}
+
+.active{
+  background-color: rgba(223, 173, 192, 0.671);
+}
+
+.nav-link:hover:not(.active), .dropdown-item:hover{
+  
+  color: rgba(248, 171, 212, 0.74) !important;
+}
+
+/* criação da classe bg-imagem */
+.bg-imagem{
+  /* para manter a responsividade utilizamos o viewport */
+  height: 48vw;
+  background-image: url(https://media.discordapp.net/attachments/888192940588023848/888200047060201482/prepare-a-colocacao-de-anel-no-dedo-da-noiva_1157-338.png?width=609&height=406);
+  background-repeat: no-repeat;
+  /* cover define que a imagem de fundo será ajustada para cobrir a área do container */
+  background-size: cover;
+}
+
+.bg-imagem p{
+  font-size: 4vw;
+  text-shadow: 4px 4px 8px rgb(0, 0, 0);
+}
+
+/* Nome do casal */
+.container-fluid h1 {
+  font-size: 7vw;
+  text-shadow: 4px 4px 8px rgb(0, 0, 0);
+  font-family: 'Scriptina - Alternates'; 
+                                                                                                 
+                                                
+}
+/* Barra de navegação */
+.navbar {
+  padding: 8px 16px !important;
+  background-color:  rgba(145, 120, 133, 0.61);
+   
+  
+  background-image: linear-gradient(to top, rgba(83, 70, 70, 0.596), rgba(73, 61, 61, 0));
+  
+}
+
+.navbar-toggler{
+  background-color: rgba(37, 27, 32, 0.404);
+}
+
+/* História do casal */
+.historia-casal {
+  font-size: 20px;
+   background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(228, 176, 196, 0.267));
+  margin:  5px 5px 20px;
+  font-weight: bold;
+  padding: 30px;
+  text-align: left;
+  border-radius: 10px;
+  
+  font-family: 'Scriptina - Alternates';
+}
+
+.card {
+  background-color:  rgba(245, 199, 217, 0.274);
+  margin: 5px 5px 10px 20px;
+  padding: 30px;
+  font-family: 'Scriptina - Alternates'; 
+  
+}
+
+#navegacao2 {
+  text-align: center;
+  
+}
+
+body{
+  background-color: rgba(228, 176, 196, 0.336);
+}
+
+/* Menxendo no h4 */
+#casando{
+  font-size: 4vw;
+  text-shadow: 4px 4px 8px black;
+}
+/* navbar-brand Texto do menu navegação */
+.navbar-brand{
+  font-family: scriptina;
+  color: white;
+  
+}
+
+
+#alianca{
+  height: 30px ;
+}
+
+#data{
+  text-shadow: 4px 4px 8px black;
+}
+
+ .map-responsive{
+   border-radius: 2%;
+    margin-bottom: 5px;
+    margin-left: 40px;
+    border: solid 8px rgba(70, 41, 58, 0.082);
+    text-align: center;
+    overflow:hidden;
+    align-items: center;
+    padding-bottom:30.25%;
+    padding-left: 95%;
+    position:relative;
+    width: 500px !important; 
+    height:300px !important;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}
+ 
+#icones li{
+  list-style-type: none;
+  display: inline;
+  margin-right: 20px;
+  padding-top: 3px
+}
+
+footer {
+  background-image: linear-gradient( rgba(245, 190, 211, 0), rgba(228, 176, 196, 0.671));
+  border: solid 1px rgba(43, 33, 35, 0.103);
+  text-align: center;
+  align-items: center;
+  margin-bottom: 1px;
+}  
+
+.icones-2 {
+  margin-bottom: 9px;
+  margin-top: 9px;
+}
+.navbar-taggler{
+  color: rgba(240, 151, 197, 0.685) !important;
+
+}
+
+
